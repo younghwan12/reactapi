@@ -25,61 +25,110 @@
 }
 
 @font-face {
-  font-family: "Rajdhani-Display";
+  font-family: "GothicA1";
+  font-weight: 100;
+  font-style: normal;
+  src: url("../fonts/GothicA1-Thin.eot");
+  src: url("../fonts/GothicA1-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-Thin.woff2") format("woff2"),
+    url("../fonts/GothicA1-Thin.woff") format("woff"),
+    url("../fonts/GothicA1-Thin.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothicA1";
+  font-weight: 200;
+  font-style: normal;
+  src: url("../fonts/GothicA1-ExtraLight.eot");
+  src: url("../fonts/GothicA1-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GothicA1-ExtraLight.woff2") format("woff2"),
+    url("../fonts/GothicA1-ExtraLight.woff") format("woff"),
+    url("../fonts/GothicA1-ExtraLight.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothicA1";
   font-weight: 300;
   font-style: normal;
-  src: url("../fonts/Rajdhani-Light.eot");
-  src: url("../fonts/Rajdhani-Light.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Rajdhani-Light.woff2") format("woff2"),
-    url("../fonts/Rajdhani-Light.woff") format("woff"),
-    url("../fonts/Rajdhani-Light.ttf") format("truetype");
+  src: url("../fonts/GothicA1-Light.eot");
+  src: url("../fonts/GothicA1-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-Light.woff2") format("woff2"),
+    url("../fonts/GothicA1-Light.woff") format("woff"),
+    url("../fonts/GothicA1-Light.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Rajdhani-Display";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/Rajdhani-Bold.eot");
-  src: url("../fonts/Rajdhani-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Rajdhani-Bold.woff2") format("woff2"),
-    url("../fonts/Rajdhani-Bold.woff") format("woff"),
-    url("../fonts/Rajdhani-Bold.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Rajdhani-Display";
-  font-weight: 500;
-  font-style: normal;
-  src: url("../fonts/Rajdhani-Medium.eot");
-  src: url("../fonts/Rajdhani-Medium.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Rajdhani-Medium.woff2") format("woff2"),
-    url("../fonts/Rajdhani-Medium.woff") format("woff"),
-    url("../fonts/Rajdhani-Medium.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Rajdhani-Display";
+  font-family: "GothicA1";
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/Rajdhani-Regular.eot");
-  src: url("../fonts/Rajdhani-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Rajdhani-Regular.woff2") format("woff2"),
-    url("../fonts/Rajdhani-Regular.woff") format("woff"),
-    url("../fonts/Rajdhani-Regular.ttf") format("truetype");
+  src: url("../fonts/GothicA1-Regular.eot");
+  src: url("../fonts/GothicA1-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-Regular.woff2") format("woff2"),
+    url("../fonts/GothicA1-Regular.woff") format("woff"),
+    url("../fonts/GothicA1-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Rajdhani-Display";
+  font-family: "GothicA1";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/GothicA1-Medium.eot");
+  src: url("../fonts/GothicA1-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-Medium.woff2") format("woff2"),
+    url("../fonts/GothicA1-Medium.woff") format("woff"),
+    url("../fonts/GothicA1-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothicA1";
   font-weight: 600;
   font-style: normal;
-  src: url("../fonts/Rajdhani-SemiBold.eot");
-  src: url("../fonts/Rajdhani-SemiBold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Rajdhani-SemiBold.woff2") format("woff2"),
-    url("../fonts/Rajdhani-SemiBold.woff") format("woff"),
-    url("../fonts/Rajdhani-SemiBold.ttf") format("truetype");
+  src: url("../fonts/GothicA1-SemiBold.eot");
+  src: url("../fonts/GothicA1-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-SemiBold.woff2") format("woff2"),
+    url("../fonts/GothicA1-SemiBold.woff") format("woff"),
+    url("../fonts/GothicA1-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothicA1";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/GothicA1-Bold.eot");
+  src: url("../fonts/GothicA1-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-Bold.woff2") format("woff2"),
+    url("../fonts/GothicA1-Bold.woff") format("woff"),
+    url("../fonts/GothicA1-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothicA1";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/GothicA1-ExtraBold.eot");
+  src: url("../fonts/GothicA1-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-ExtraBold.woff2") format("woff2"),
+    url("../fonts/GothicA1-ExtraBold.woff") format("woff"),
+    url("../fonts/GothicA1-ExtraBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GothicA1";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/GothicA1-Black.eot");
+  src: url("../fonts/GothicA1-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/GothicA1-Black.woff2") format("woff2"),
+    url("../fonts/GothicA1-Black.woff") format("woff"),
+    url("../fonts/GothicA1-Black.ttf") format("truetype");
   font-display: swap;
 }
