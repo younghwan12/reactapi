@@ -47,7 +47,7 @@
             "descBasic": "all : inherit",
             "descApple": "flexbox",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "★★★★★",
             "definition": [
                 "all 속성은 실제적인 초기값은 없습니다.",
                 "all 속성은 지정된 값이 각 속성에 적용되기 때문에 이것은 약칭입니다."
@@ -60,7 +60,7 @@
             "descBasic": "animation : 3s ease-in",
             "descApple": "flexbox",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "★★★★★",
             "definition": [
                 "animation 속성은 상속 X",
                 "animation 속성은 전환 유형을 결정합니다. 값은 에서 사용 가능한 값 중 하나여야 합니다"
@@ -73,7 +73,7 @@
             "descBasic": "animation-delay : 3s",
             "descApple": "flexbox",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "★★★★☆",
             "definition": [
                 "animation-delay 속성은 한 번에 설정 하려면 속기 속성을 사용하는 것이 편리한 경우가 많습니다",
                 "animation-delay 속성은 애니메이션이 요소에 적용된 순간부터 애니메이션이 시작되어야 하는 시간 오프셋입니다."
