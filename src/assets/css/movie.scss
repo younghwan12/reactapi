@@ -1,0 +1,10 @@
+.movie__inner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.movie__box {
+    width: 24%;
+    background: #fff;
+}
