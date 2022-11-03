@@ -24,20 +24,40 @@
       }
 
       .num {
-        flex: 1 1 5%;
+        flex: 1 1 6%;
         text-align: center;
-        border-right: 1px solid var(--bg-dark-border);
       }
       .name {
-        flex: 1 1 20%;
+        flex: 1 1 19%;
         border-right: 1px solid var(--bg-dark-border);
+        border-left: 1px solid var(--bg-dark-border);
+        
+        // &:hover {
+        //   white-space: wrap;
+        //   overflow:auto;
+        //   text-overflow:inherit;
+        // }
       }
       .desc {
         flex: 1 1 65%;
         border-right: 1px solid var(--bg-dark-border);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:hover {
+          white-space:inherit;
+          overflow:auto;
+          text-overflow:inherit;
+        }
       }
       .star {
-        flex: 1 1 10%;
+        flex: 1 1 8%;
+        text-align: center;
+        border-right: 1px solid var(--bg-dark-border);
+      }
+      .link {
+        flex: 1 1 7%;
         text-align: center;
       }
     }

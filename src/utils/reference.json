@@ -12,7 +12,8 @@
             "definition": [
                 "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
                 "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
-            ]
+            ],
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-content"
         },
         {
             "num": 2,
@@ -104,6 +105,7 @@
                 "animation-duration 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
                 "animation-duration 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
             ]
+            
         },
         {
             "num": 9,

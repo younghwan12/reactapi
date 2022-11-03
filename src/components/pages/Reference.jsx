@@ -16,12 +16,19 @@ const Reference = () => {
 
   useEffect(()=>{
     
-    fetch("https://webstoryboy.github.io/react2022/src/assets/json/refer.json")
-      .then(response => response.json())
-    // .then(result => console.log(result.data.htmlRefer))
-      .then(result => setReferences(result.data.htmlRefer))
-      .catch(error => console.log('error', error));
+    // fetch("https://webstoryboy.github.io/react2022/src/assets/json/refer.json")
+    //   .then(response => response.json())
+    // // .then(result => console.log(result.data.htmlRefer))
+    //   .then(result => setReferences(result.data.htmlRefer))
+    //   .catch(error => console.log('error', error));
+
+    fetch("https://younghwan12.github.io/reactapi/src/utils/reference.json")
+    .then(response => response.json())
+    .then(result => setReferences(result.cssRefer))
+    .catch(error => console.log('error', error));
   }, [])
+  
+  
 
 
 
