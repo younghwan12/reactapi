@@ -32,15 +32,18 @@
         border-right: 1px solid var(--bg-dark-border);
         border-left: 1px solid var(--bg-dark-border);
         
-        // &:hover {
-        //   white-space: wrap;
-        //   overflow:auto;
-        //   text-overflow:inherit;
-        // }
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:hover {
+          white-space:inherit;
+          overflow:auto;
+          text-overflow:inherit;
+        }
       }
       .desc {
         flex: 1 1 65%;
-        border-right: 1px solid var(--bg-dark-border);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -55,6 +58,7 @@
         flex: 1 1 8%;
         text-align: center;
         border-right: 1px solid var(--bg-dark-border);
+        border-left: 1px solid var(--bg-dark-border);
       }
       .link {
         flex: 1 1 7%;
