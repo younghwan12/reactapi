@@ -14,11 +14,13 @@ const MainText = ({ text }) => {
 const Maincont = () => {
   return (
     <section className="cont__main">
-      <div className="main__inner">
-        {mainInfo.map((text, idx) => (
-          <MainText key={idx} text={text.text} />
-        ))}
-      </div>
+      <div className="container">
+        <div className="main__inner">
+          {mainInfo.map((text, idx) => (
+            <MainText key={idx} text={text.text} />
+          ))}
+        </div>
+      </div>      
     </section>
   );
 };
