@@ -16,7 +16,7 @@ const Movie = () => {
 
   useEffect(() => {
     fetch(
-      "https://api.themoviedb.org/3/movie/popular?api_key=18acbb5a46d65f5d2353c95c8c861560"
+      "https://api.themoviedb.org/3/movie/popular?api_key=18acbb5a46d65f5d2353c95c8c861560&region=KR"
     )
       .then((response) => response.json())
       .then((result) => setPopular(result.results))
