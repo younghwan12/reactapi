@@ -7,6 +7,11 @@
     li {
       width: 23%;
       position: relative;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
 
       em {
         display: block;
@@ -80,8 +85,9 @@
 
 .popular__inner {
   h2 {
+    font-size: 40px;
     color: var(--white);
-    margin-bottom: 20px;
+    margin-bottom: 70px;
   }
   ul {
     display: flex;
@@ -89,23 +95,25 @@
     flex-wrap: wrap;
 
     li {
-      display: none;
       width: 18%;
       position: relative;
       transition: all 0.3s ease-in-out;
 
-      &:nth-child(1),
-      &:nth-child(2),
-      &:nth-child(3),
-      &:nth-child(4),
-      &:nth-child(5) {
-        display: block;
-      }
       &:hover {
-        transform: scale(1.15);
+        transform: scale(1.1);
       }
       img {
         height: 300px;
+      }
+
+      .ranking {
+        position: absolute;
+        left: -15px;
+        top: -70px;
+        font-size: 100px;
+        font-family: var(--font-main);
+        -webkit-text-stroke: 2px #fff;
+        -webkit-text-fill-color: #000;
       }
 
       em {
@@ -117,16 +125,20 @@
       .title {
         padding: 5px 0;
         display: inline-block;
+        font-size: 16px;
+        font-family: var(--font-kor);
+        -webkit-text-stroke: 1px #fff;
+        -webkit-text-fill-color: #000;
       }
       .star {
         background: #fff;
         color: #000;
         position: absolute;
-        left: 10px;
-        top: 10px;
-        width: 30px;
+        right: 0px;
+        top: -35px;
+        width: 70px;
         height: 30px;
-        border-radius: 50%;
+        border-radius: 5px;
         text-align: center;
         line-height: 30px;
         font-weight: 700;
