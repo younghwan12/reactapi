@@ -5,8 +5,6 @@ import "swiper/css/pagination";
 
 import { Autoplay, Pagination } from "swiper";
 
-import "swiper/css";
-
 function MoviePop(props) {
   return (
     <li>
@@ -47,7 +45,7 @@ const MoviePopular = (props) => {
             {/* <ul> */}
             {props.popular.map((popular, index) =>
               index < 10 ? (
-                <SwiperSlide>
+                <SwiperSlide key={index}>
                   <MoviePop key={index} popular={popular} index={index} />
                 </SwiperSlide>
               ) : null
