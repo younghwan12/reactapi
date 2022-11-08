@@ -67,6 +67,7 @@
     width: 100%;
     padding: 14px 30px;
     font-family: var(--font-kor);
+    margin-top: 20px;
   }
   button {
     position: absolute;
@@ -78,6 +79,7 @@
     border: 0;
     cursor: pointer;
     z-index: 1000;
+    margin-top: 20px;
   }
 }
 
@@ -89,62 +91,65 @@
     color: var(--white);
     margin-bottom: 70px;
   }
-  ul {
-    display: flex;
+  // ul {
+  // display: flex;
+  // justify-content: space-between;
+  // flex-wrap: wrap;
+
+  li {
     justify-content: space-between;
-    flex-wrap: wrap;
+    width: 25%;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    margin: 0 50px;
 
-    li {
-      width: 18%;
-      position: relative;
-      transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+    img {
+      width: 250px;
+      height: 300px;
+    }
 
-      &:hover {
-        transform: scale(1.1);
-      }
-      img {
-        height: 300px;
-      }
+    .ranking {
+      position: absolute;
+      left: -25px;
+      top: -40px;
+      font-size: 100px;
+      font-family: var(--font-main);
+      -webkit-text-stroke: 2px #fff;
+      -webkit-text-fill-color: #000;
+    }
 
-      .ranking {
-        position: absolute;
-        left: -15px;
-        top: -70px;
-        font-size: 100px;
-        font-family: var(--font-main);
-        -webkit-text-stroke: 2px #fff;
-        -webkit-text-fill-color: #000;
-      }
-
-      em {
-        display: block;
-        height: 80px;
-        margin-bottom: 30px;
-        font-family: var(--font-kor);
-      }
-      .title {
-        padding: 5px 0;
-        display: inline-block;
-        font-size: 16px;
-        font-family: var(--font-kor);
-        -webkit-text-stroke: 1px #fff;
-        -webkit-text-fill-color: #000;
-      }
-      .star {
-        background: #fff;
-        color: #000;
-        position: absolute;
-        right: 0px;
-        top: -35px;
-        width: 70px;
-        height: 30px;
-        border-radius: 5px;
-        text-align: center;
-        line-height: 30px;
-        font-weight: 700;
-      }
+    em {
+      display: block;
+      height: 80px;
+      margin-bottom: 30px;
+      font-family: var(--font-kor);
+    }
+    .title {
+      padding: 5px 0;
+      display: inline-block;
+      font-size: 16px;
+      font-family: var(--font-kor);
+      -webkit-text-stroke: 1px #fff;
+      -webkit-text-fill-color: #000;
+    }
+    .star {
+      background: #fff;
+      color: #000;
+      position: absolute;
+      right: 0px;
+      top: -35px;
+      width: 70px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 700;
     }
   }
+  // }
 
   a {
     color: var(--white);
