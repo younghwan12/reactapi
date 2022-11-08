@@ -22,7 +22,7 @@ const Movie = () => {
       .then((result) => setPopular(result.results))
       // .then((result) => setMovies(result))
       .catch((error) => console.log("error", error));
-  });
+  }, []);
 
   const search = (query) => {
     fetch(
