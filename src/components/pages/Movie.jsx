@@ -24,8 +24,8 @@ const Movie = () => {
       .catch((error) => console.log("error", error));
   }, []);
 
-  const search = (query) => {
-    fetch(
+  const search = async (query) => {
+    await fetch(
       `https://api.themoviedb.org/3/search/movie?api_key=18acbb5a46d65f5d2353c95c8c861560&query=${query}`
     )
       .then((response) => response.json())
