@@ -1,9 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import { Autoplay, Pagination } from "swiper";
+import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 
 function MoviePop(props) {
   return (
@@ -30,19 +31,26 @@ const MoviePopular = (props) => {
         <div className="popular__inner">
           <h2>BOX OFFICE Ranking</h2>
           <Swiper
-            slidesPerView={3}
-            spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
+            effect={"coverflow"}
             autoplay={{
-              delay: 1500,
+              delay: 2500,
               disableOnInteraction: false,
             }}
-            modules={[Autoplay, Pagination]}
+            initialSlide="3"
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+            pagination={true}
+            modules={[EffectCoverflow, Pagination, Autoplay]}
             className="mySwiper"
           >
-            {/* <ul> */}
             {props.popular.map((popular, index) =>
               index < 10 ? (
                 <SwiperSlide key={index}>
@@ -50,7 +58,6 @@ const MoviePopular = (props) => {
                 </SwiperSlide>
               ) : null
             )}
-            {/* </ul> */}
           </Swiper>
         </div>
       </div>
