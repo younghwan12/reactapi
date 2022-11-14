@@ -1,10 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+import "swiper/css/effect-cards";
 
-import { EffectCoverflow, Pagination, Autoplay } from "swiper";
+import { EffectCards } from "swiper";
 
 function UnsplashRan({ random }) {
   return (
@@ -20,27 +19,12 @@ const UnsplashSlider = ({ random }) => {
   return (
     <section className="movie__popular">
       <div className="container">
-        <div className="popular__inner">
+        <div className="unsplash__inner">
           <h2>Unsplash Random</h2>
           <Swiper
-            effect={"coverflow"}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            initialSlide="3"
+            effect={"cards"}
             grabCursor={true}
-            centeredSlides={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
-            }}
-            pagination={true}
-            modules={[EffectCoverflow, Pagination, Autoplay]}
+            modules={[EffectCards]}
             className="mySwiper"
           >
             {random.map((random, index) =>

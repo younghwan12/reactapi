@@ -46,7 +46,7 @@ const Unsplash = () => {
         <Title title={["Unsplash", "reference API"]} />
         <UnsplashSlider random={random} />
         <UnsplashSearch onSearch={search} />
-        <UnsplashBtn />
+        <UnsplashBtn onSearch={search} />
         <UnsplashCont images={images} />
         <Contact />
       </Contents>

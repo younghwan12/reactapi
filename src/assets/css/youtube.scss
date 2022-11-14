@@ -1,4 +1,4 @@
-.youtube__unsplash {
+.youtube__popular {
   ul {
     column-count: 4;
     column-gap: 20px;
@@ -11,5 +11,36 @@
         border-radius: 5px;
       }
     }
+  }
+}
+
+.youtube__btn {
+  margin: 30px 0 50px;
+  button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.youtube__inner {
+  h2 {
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: 70px;
+  }
+  .swiper img {
+    margin: 100px auto;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
   }
 }
