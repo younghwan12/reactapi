@@ -19,7 +19,7 @@ const UnsplashSlider = ({ random }) => {
   return (
     <section className="movie__popular">
       <div className="container">
-        <div className="unsplash__inner">
+        <div className="unsplash__images">
           <h2>Unsplash Random</h2>
           <Swiper
             effect={"cards"}

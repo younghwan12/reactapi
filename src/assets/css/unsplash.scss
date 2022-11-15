@@ -31,7 +31,7 @@
   }
 }
 
-.unsplash__inner {
+.unsplash__images {
   h2 {
     font-size: 40px;
     color: var(--white);
@@ -54,5 +54,43 @@
 
   a {
     color: var(--white);
+  }
+}
+
+.unsplash__search {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  .container {
+    position: relative;
+  }
+
+  h2 {
+    color: var(--white);
+    font-size: 40px;
+    text-indent: -9999px;
+    height: 0;
+  }
+  input {
+    background: var(--black);
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    color: var(--white);
+    width: 100%;
+    padding: 14px 30px;
+    font-family: var(--font-kor);
+    margin-top: 20px;
+  }
+  button {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    z-index: 1000;
+    margin-top: 20px;
   }
 }
